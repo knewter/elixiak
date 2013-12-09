@@ -14,7 +14,7 @@ defmodule Elixiak.Mixfile do
   end
 
   defp deps do
-    [{ :'riak-elixir-client', github: "drewkerrigan/riak-elixir-client" },
+    [{ :'riak-elixir-client', github: "knewter/riak-elixir-client" },
      { :json,  github: "cblage/elixir-json"}]
   end
 end
